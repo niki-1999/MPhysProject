@@ -6,6 +6,6 @@ trace_dt = datetime.datetime(2001,9,22,12)
 lats = np.arange(10, 90, 10)
 lons = 180.
 rhos = tsy.RE
-trace = tsy.Trace(lats, lons, rhos, datetime=trace_dt)
+trac = tsy.Trace(lats, lons, rhos, datetime=trace_dt)
 
-print(trace)
+print(trac)
